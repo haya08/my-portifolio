@@ -30,9 +30,9 @@ export const Hero = () => {
       {/* background */}
       <div className="absolute inset-0">
         <img
-          src="/public/hero-bg.jpg"
+          src="/public/pink-hero-bg3.png"
           alt="Hero Image"
-          className="w-full h-full object-cover opacity-60"
+          className="w-full h-full object-cover opacity-70"
         />
         <div className="absolute inset-0 bg-linear-to-b from-background/20 via-background/80 to-background z-10" />
       </div>
@@ -44,7 +44,7 @@ export const Hero = () => {
             key={index}
             className="absolute w-1.5 h-1.5 bg-primary rounded-full"
             style={{
-              backgroundColor: "#20B2A6",
+              backgroundColor: "#ff8fab",
               left: `${Math.random() * 100}%`,
               top: `${Math.random() * 100}%`,
               animation: `slow-drift ${Math.random() * 20 + 5}s infinite ease-in-out`,
