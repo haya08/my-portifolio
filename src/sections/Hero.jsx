@@ -34,12 +34,12 @@ export const Hero = () => {
           alt="Hero Image"
           className="w-full h-full object-cover opacity-70"
         />
-        <div className="absolute inset-0 bg-linear-to-b from-background/20 via-background/80 to-background z-10" />
+        <div className="absolute inset-0 bg-linear-to-b from-background/20 via-background/80 to-background " />
       </div>
 
       {/* green dots */}
       <div className="absolute inset-0 overflow-hidden pinter-events-none">
-        {[...Array(30)].map((_, index) => (
+        {[...Array(40)].map((_, index) => (
           <div
             key={index}
             className="absolute w-1.5 h-1.5 bg-primary rounded-full"
@@ -150,7 +150,7 @@ export const Hero = () => {
         </div>
 
         {/* skills section */}
-        <div className="mt-20 animate-fade-in animation-delay-800">
+        <div className="mt-20 animate-fade-in animation-delay-800 z-50">
           <p className="text-sm text-muted-foreground text-center mb-6">Technologies I work with</p>
           <div className="relative overflow-hidden">
             <div className="flex animate-marquee">
