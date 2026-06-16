@@ -29,7 +29,10 @@ const highLights = [
 
 export const About = () => {
   return (
-    <section id="about" className="md:py-30 py-16 md:px-10 relative overflow-hidden">
+    <section
+      id="about"
+      className="md:py-30 py-16 md:px-10 relative overflow-hidden"
+    >
       <div className="container mx-auto px-6 relative">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* left column */}
@@ -94,7 +97,7 @@ export const About = () => {
                 key={index}
                 className="glass flex items-center gap-4 rounded-2xl p-6 animate-fade-in animation-delay"
                 style={{
-                  animationDelay: `${(index + 2) * 100}ms`
+                  animationDelay: `${(index + 2) * 100}ms`,
                 }}
               >
                 <div className="flex flex-col">
@@ -102,9 +105,13 @@ export const About = () => {
                     <div className="w-12 h-12 mb-4 bg-primary/10 hover:bg-primary/20 rounded-xl p-2 flex items-center justify-center">
                       <highlight.icon className="w-6 h-6 text-primary" />
                     </div>
-                    <h3 className="text-lg font-semibold text-primary">{highlight.title}</h3>
+                    <h3 className="text-lg font-semibold text-primary">
+                      {highlight.title}
+                    </h3>
                   </div>
-                  <p className="text-muted-foreground text-sm">{highlight.description}</p>
+                  <p className="text-muted-foreground text-sm">
+                    {highlight.description}
+                  </p>
                 </div>
               </div>
             ))}

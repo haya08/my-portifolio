@@ -95,7 +95,7 @@
 
   @keyframes animate-float {
     0%,
-    100%{
+    100% {
       transform: translateY(0);
     }
     50% {
@@ -104,10 +104,10 @@
   }
 
   @keyframes animate-marquee {
-    0%{
+    0% {
       transform: translateX(0);
     }
-    100%{
+    100% {
       transform: translateX(-50%);
     }
   }
@@ -170,8 +170,8 @@
   }
 
   .animated-border:hover {
-    background-color: color-mix(in srgb, #26c4b8 15%, transparent);
+    background-color: color-mix(in srgb, #fa95af 15%, transparent);
     backdrop-filter: blur(16px);
-    box-shadow: 0 0 20px color-mix(in srgb, #26c4b8 20%, transparent);
+    box-shadow: 0 0 20px color-mix(in srgb, #fa95af 20%, transparent);
   }
 }
