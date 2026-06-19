@@ -29,7 +29,7 @@ export const Navbar = () => {
           href="#"
           className="text-2xl font-bold tracking-tight hover:text-primary"
         >
-          PM<span className="text-primary">.</span>
+          HA<span className="text-primary">.</span>
         </a>
 
         {/* Desktop Menu */}

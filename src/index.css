@@ -33,6 +33,10 @@
     font-family: "Inter", sans-serif;
   }
 
+  button {
+    cursor: pointer;
+  }
+
   .font-serif {
     font-family: "PlayFair Display", serif;
   }
@@ -173,5 +177,11 @@
     background-color: color-mix(in srgb, #fa95af 15%, transparent);
     backdrop-filter: blur(16px);
     box-shadow: 0 0 20px color-mix(in srgb, #fa95af 20%, transparent);
+  }
+
+  .timeline-glow {
+    box-shadow:
+      0 0 40px color-mix(in srgb, var(--color-primary) 35%, transparent),
+      0 0 80px color-mix(in srgb, var(--color-primary) 25%, transparent);
   }
 }
