@@ -12,7 +12,7 @@ export const Footer = () => {
   return (
     <footer className="border-t-2 border-foreground/10">
       {/* brand name */}
-      <div className="flex items-center justify-between mx-6 md:mx-20 py-8">
+      <div className="flex items-center justify-between mx-6 md:mx-20 px-6 py-8">
         <div>
           <a
             href="#"

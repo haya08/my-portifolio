@@ -42,7 +42,7 @@ export const Experience = () => {
     >
       <div className="absolute top-1/2 left-1/4 w-96 h-96 bg-primary/10 rounded-full blur-3xl -translate-y-1/2  " />
 
-      <div className="container mx-auto px-6 relative z-10">
+      <div className="container mx-auto px-20 relative z-10">
         {/* section header */}
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="space-y-4">

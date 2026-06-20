@@ -35,10 +35,10 @@ const projects = [
 export const Projects = () => {
   return (
     <section id="projects" className="py-16 md:px-10 relative overflow-hidden">
-      <div className="container mx-auto px-6 relative">
+      <div className="container mx-auto px-20 relative">
         {/* background */}
-        <div className="absolute top-1/4 right-0 w-96 h-96 bg-primary/40 rounded-full blur-3xl" />
-        <div className="absolute bottom-1/4 left-0 w-96 h-96 bg-highlight/40 rounded-full blur-3xl" />
+        <div className="absolute top-1/4 right-0 w-96 h-96 bg-primary/20 rounded-full blur-3xl" />
+        <div className="absolute bottom-1/4 left-0 w-96 h-96 bg-highlight/20 rounded-full blur-3xl" />
         {/* <div className="container mx-auto px-6 relative z-10"></div> */}
 
         {/* header section */}
@@ -55,7 +55,7 @@ export const Projects = () => {
           <p className="text-muted-foreground animate-fade-in animation-delay-400 ">
             A selection of my work, from smaller projects to larger ones.
           </p>
-        </div>;
+        </div>
 
         {/* projects grid */}
         <div className="grid lg:grid-cols-3 gap-8 mt-16">

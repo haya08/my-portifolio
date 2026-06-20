@@ -33,7 +33,7 @@ export const About = () => {
       id="about"
       className="md:py-30 py-16 md:px-10 relative overflow-hidden"
     >
-      <div className="container mx-auto px-6 relative">
+      <div className="container mx-auto px-20 relative">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* left column */}
           <div className="space-y-8">

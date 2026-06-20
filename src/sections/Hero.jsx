@@ -60,9 +60,9 @@ export const Hero = () => {
           {/* left column */}
           <div className="space-y-8">
             <div className="animate-fade-in">
-              <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full  text-sm text-primary">
+              <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="bg-primary rounded-full w-2 h-2 animate-pulse" />
-                Software Engineer * Full Stack
+                Software Engineer / BackEnd
               </span>
             </div>
 
