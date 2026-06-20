@@ -152,17 +152,6 @@ The website is optimized for:
 
 ---
 
-## 📸 Screenshots
-
-Add screenshots of:
-
-* Home Page
-* About Section
-* Projects Section
-* Contact Section
-
----
-
 ## 🤝 Connect With Me
 
 ### Portfolio
