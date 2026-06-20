@@ -1,10 +1,10 @@
 # 🚀 Personal Portfolio Website
 
-A modern, responsive, and interactive portfolio website built to showcase my projects, skills, and professional journey as a Front-End Developer.
+A modern, responsive, and interactive portfolio website built to showcase my projects, skills, and professional journey as a full-stack Developer.
 
 ## 🌐 Live Demo
 
-[View Portfolio](YOUR_LIVE_LINK_HERE)
+[View Portfolio](https://my-portifolio-psi-three.vercel.app/)
 
 ---
 
@@ -86,11 +86,11 @@ This portfolio was designed to create a clean and engaging experience while pres
 portfolio/
 ├── public/
 ├── src/
-│   ├── assets/
+│   ├── layout/
 │   ├── components/
 │   ├── sections/
 │   ├── constants/
-│   ├── hooks/
+│   ├── index.css/
 │   ├── App.jsx
 │   └── main.jsx
 ├── package.json
@@ -167,19 +167,20 @@ Add screenshots of:
 
 ### Portfolio
 
-YOUR_PORTFOLIO_LINK
+
+[View Portfolio](https://my-portifolio-psi-three.vercel.app/)
 
 ### LinkedIn
 
-YOUR_LINKEDIN_LINK
+[View LinkedIn](www.linkedin.com/in/hayaahmedhussien)
 
 ### GitHub
 
-YOUR_GITHUB_LINK
+[YOUR_GITHUB_LINK](https://github.com/haya08)
 
 ### Email
 
-YOUR_EMAIL
+haya.ahm.08@gmail.com
 
 ---
 
