@@ -30,7 +30,7 @@ export const Hero = () => {
       {/* background */}
       <div className="absolute inset-0">
         <img
-          src="/public/pink-hero-bg3.png"
+          src="/pink-hero-bg3.png"
           alt="Hero Image"
           className="w-full h-full object-cover opacity-70"
         />
@@ -124,7 +124,7 @@ export const Hero = () => {
               />
               <div className="relative glass p-2 rounded-3xl glow-border">
                 <img
-                  src="/public/my-avatar.jpg"
+                  src="/my-avatar.jpg"
                   alt="Haya Ahmed"
                   className="w-full aspect-[4/5] object-cover rounded-2xl"
                 />
