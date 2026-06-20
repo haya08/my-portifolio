@@ -7,7 +7,7 @@ const projects = [
     title: "E-commerce platform",
     description:
       "Built a full-featured e-commerce platform with product browsing, cart management, user authentication, and a responsive shopping experience.",
-    image: "/public/projects/e-commerce.jpg",
+    image: "/projects/e-commerce.jpg",
     tags: ["C#", ".NET", "MVC", "Entity Framework"],
     link: "#",
     github: "#",
@@ -16,7 +16,7 @@ const projects = [
     title: "Task management system",
     description:
       "Developed a task management system that helps users organize projects, track progress, and improve productivity through efficient task planning.",
-    image: "/public/projects/task-management.png",
+    image: "/projects/task-management.png",
     tags: ["C#", ".NET", "MVC", "Entity Framework"],
     link: "#",
     github: "#",
@@ -25,7 +25,7 @@ const projects = [
     title: "Shipping system",
     description:
       "Created a shipping management solution for handling orders, tracking shipments, and optimizing delivery workflows with real-time status updates.",
-    image: "/public/projects/shipping.jpeg",
+    image: "/projects/shipping.jpeg",
     tags: ["C#", ".NET", "MVC", "Entity Framework"],
     link: "#",
     github: "#",

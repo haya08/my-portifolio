@@ -7,42 +7,42 @@ const testimonials = [
       "PixelBox completely transformed our brand presence online. The designs were clean, modern, and delivered exactly the message we wanted.",
     author: "Sarah Mitchell",
     role: "Marketing Manager",
-    avatar: "/public/avatars/uifaces-popular-avatar(1).jpg",
+    avatar: "/avatars/uifaces-popular-avatar(1).jpg",
   },
   {
     quote:
       "Working with PixelBox was one of the best decisions for our business. The team delivered high-quality visuals and engaging video content on time.",
     author: "David Carter",
     role: "Business Owner",
-    avatar: "/public/avatars/uifaces-popular-avatar(2).jpg",
+    avatar: "/avatars/uifaces-popular-avatar(2).jpg",
   },
   {
     quote:
       "The attention to detail and creativity exceeded our expectations. Our social media engagement noticeably improved after the campaign launch.",
     author: "Emma Wilson",
     role: "Social Media Specialist",
-    avatar: "/public/avatars/uifaces-popular-avatar(3).jpg",
+    avatar: "/avatars/uifaces-popular-avatar(3).jpg",
   },
   {
     quote:
       "From concept to final delivery, PixelBox handled everything professionally. The final result looked premium and perfectly matched our vision.",
     author: "Michael Anderson",
     role: "Startup Founder",
-    avatar: "/public/avatars/uifaces-popular-avatar(4).jpg",
+    avatar: "/avatars/uifaces-popular-avatar(4).jpg",
   },
   {
     quote:
       "Exceptional communication, stunning designs, and fast turnaround times. We will definitely work with PixelBox again.",
     author: "Olivia Bennett",
     role: "Brand Manager",
-    avatar: "/public/avatars/uifaces-popular-avatar(5).jpg",
+    avatar: "/avatars/uifaces-popular-avatar(5).jpg",
   },
   {
     quote:
       "Their creative approach helped our brand stand out in a competitive market. The results were beyond what we imagined.",
     author: "James Thompson",
     role: "E-commerce Director",
-    avatar: "/public/avatars/uifaces-popular-avatar(6).jpg",
+    avatar: "/avatars/uifaces-popular-avatar(6).jpg",
   },
 ];
 
