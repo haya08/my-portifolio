@@ -1,29 +1,34 @@
-import { Code2, Lightbulb, Rocket, Users } from "lucide-react";
+import {
+  Code2,
+  Lightbulb,
+  Rocket,
+  Users,
+  Network,
+  Cable,
+  Database,
+  Gauge,
+} from "lucide-react";
 
 const highLights = [
   {
-    icon: Code2,
-    title: "Clean Code",
-    description:
-      "Clean code is a way to write code that is easy to understand, easy to maintain, and easy to modify.",
+    icon: Network,
+    title: "Scalable Architecture",
+    description: "Designing systems that can grow with business needs.",
   },
   {
-    icon: Rocket,
-    title: "Performance",
-    description:
-      "Performance is the ability to deliver a product or service to a user in a timely and efficient manner.",
+    icon: Cable,
+    title: "API Development",
+    description: "Building secure and reliable APIs for modern applications.",
   },
   {
-    icon: Users,
-    title: "Teamwork",
-    description:
-      "Teamwork is the ability to work together as a team to achieve a common goal.",
+    icon: Database,
+    title: "Database Design",
+    description: "Creating efficient and optimized database structures.",
   },
   {
-    icon: Lightbulb,
-    title: "Innovation",
-    description:
-      "Innovation is the ability to create something new and different from what has already been done.",
+    icon: Gauge,
+    title: "Performance Optimization",
+    description: "Improving speed, reliability, and resource efficiency.",
   },
 ];
 
@@ -44,48 +49,38 @@ export const About = () => {
             </div>
 
             <h2 className="text-3xl md:text-4xl font-bold leading-tight mb-10 text-secondary-foreground animate-fade-in animation-delay-200">
-              Building the future,
+              Building scalable systems,
               <span className="text-foreground italic font-normal font-serif">
                 {" "}
-                of web development.
+                for modern applications.
               </span>
             </h2>
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-400 ">
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Pariatur magnam iusto rem, doloremque mollitia est, voluptatem
-                saepe ipsum obcaecati eveniet sunt amet neque perspiciatis?
-                Optio, voluptates illum. Nisi reprehenderit veritatis, cumque
-                perferendis numquam expedita est debitis beatae aspernatur
-                repellat dicta asperiores facilis? Consequuntur, ipsam similique
-                accusamus beatae quibusdam accusantium. Quia?
+                I'm a backend-focused software developer passionate about
+                building scalable, secure, and efficient systems. I enjoy
+                transforming complex business requirements into reliable APIs
+                and architectures that power modern web applications.
               </p>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Pariatur magnam iusto rem, doloremque mollitia est, voluptatem
-                saepe ipsum obcaecati eveniet sunt amet neque perspiciatis?
-                Optio, voluptates illum. Nisi reprehenderit veritatis, cumque
-                perferendis numquam expedita est debitis beatae aspernatur
-                repellat dicta asperiores facilis? Consequuntur, ipsam similique
-                accusamus beatae quibusdam accusantium. Quia?
+                My experience spans designing RESTful APIs, database
+                architecture, authentication systems, and performance
+                optimization. I focus on writing clean, maintainable code that
+                supports long-term growth and scalability.
               </p>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Pariatur magnam iusto rem, doloremque mollitia est, voluptatem
-                saepe ipsum obcaecati eveniet sunt amet neque perspiciatis?
-                Optio, voluptates illum. Nisi reprehenderit veritatis, cumque
-                perferendis numquam expedita est debitis beatae aspernatur
-                repellat dicta asperiores facilis? Consequuntur, ipsam similique
-                accusamus beatae quibusdam accusantium. Quia?
+                Beyond development, I'm constantly exploring new technologies
+                and best practices to improve system performance and deliver
+                better solutions. I believe great software is built through
+                continuous learning, collaboration, and attention to detail.
               </p>
             </div>
 
             <div className="glass rounded-2xl animate-fade-in animation-delay-600 p-6 flex items-center gap-4 glow-border">
               <p className="text-lg font-medium italic text-foreground">
-                "my mission is to make the world a better place. Lorem ipsum
-                dolor sit amet consectetur adipisicing elit. Accusamus,
-                distinctio!"
+                "Great software isn't only about what users see; it's about the
+                systems working seamlessly behind the scenes."
               </p>
             </div>
           </div>

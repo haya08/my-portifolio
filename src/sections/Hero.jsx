@@ -22,7 +22,7 @@ const skills = [
   "C++",
   "Python",
   "sql server",
-]
+];
 
 export const Hero = () => {
   return (
@@ -62,7 +62,7 @@ export const Hero = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="bg-primary rounded-full w-2 h-2 animate-pulse" />
-                Software Engineer / BackEnd
+                Software Engineer / Back-end
               </span>
             </div>
 
@@ -78,9 +78,10 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-400">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-                nam officia beatae tenetur sint debitis harum, et iusto facilis
-                natus totam rem ipsa sunt non.
+                Backend-focused developer passionate about building scalable
+                systems, reliable APIs, and efficient architectures. I create
+                solutions that combine performance, security, and seamless user
+                experiences.
               </p>
             </div>
 
@@ -133,17 +134,19 @@ export const Hero = () => {
                 <div className="absolute -bottom-4 -right-4 glass rounded-full px-4 py-2 animate-float">
                   <div className="flex items-center gap-2">
                     <div className="w-3 h-3 bg-primary rounded-full animate-pulse" />
-                    <span className="text-sm font-medium">Available for work</span>
+                    <span className="text-sm font-medium">
+                      Available for work
+                    </span>
                   </div>
                 </div>
 
                 {/* stats badge */}
-                <div className="absolute -top-4 -left-4 rounded-2xl glass px-4 py-2 animate-float">
+                {/* <div className="absolute -top-4 -left-4 rounded-2xl glass px-4 py-2 animate-float">
                   <div>
                     <div className="text-2xl font-bold text-primary">5+</div>
                     <div className="text-sm text-muted-foreground">Years Exp.</div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -151,12 +154,16 @@ export const Hero = () => {
 
         {/* skills section */}
         <div className="mt-20 animate-fade-in animation-delay-800 z-50">
-          <p className="text-sm text-muted-foreground text-center mb-6">Technologies I work with</p>
+          <p className="text-sm text-muted-foreground text-center mb-6">
+            Technologies I work with
+          </p>
           <div className="relative overflow-hidden">
             <div className="flex animate-marquee">
               {[...skills, ...skills].map((skill, index) => (
                 <div key={index} className="flex-shrink-0 px-8 py-4">
-                  <span className="text-muted-foreground/50 hover:text-muted-foreground transition-colors text-xl font-semibold">{skill}</span>
+                  <span className="text-muted-foreground/50 hover:text-muted-foreground transition-colors text-xl font-semibold">
+                    {skill}
+                  </span>
                 </div>
               ))}
             </div>
