@@ -24,7 +24,7 @@ export const Navbar = () => {
 
   return (
     <header className={`fixed top-0 left-0 right-0 transition-all duration-500 ${!isScrolling ? `bg-transparent py-5` : `glass-strong py-3`} z-50`}>
-      <nav className="mx-10 px-6 flex items-center justify-between">
+      <nav className="mx-6 md:mx-20 px-6 flex items-center justify-between">
         <a
           href="#"
           className="text-2xl font-bold tracking-tight hover:text-primary"
