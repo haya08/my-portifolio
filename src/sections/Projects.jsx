@@ -4,31 +4,31 @@ import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 
 const projects = [
   {
-    title: "E-commerce platform",
+    title: "Baseera",
     description:
-      "Built a full-featured e-commerce platform with product browsing, cart management, user authentication, and a responsive shopping experience.",
-    image: "/projects/e-commerce.jpg",
-    tags: ["C#", ".NET", "MVC", "Entity Framework"],
+      "Building an AI-powered marketing intelligence platform that extracts structured brand knowledge from unstructured data, resolves entities and aliases, and connects them through a knowledge graph to support market and competitor analysis.",
+    image: "/projects/baseera.jpg",
+    tags: [".NET", "Neo4j", "Gemini API", "Vector Search"],
     link: "#",
-    github: "#",
+    github: "https://github.com/haya08/Baseera",
   },
   {
-    title: "Task management system",
+    title: "Project management system",
     description:
-      "Developed a task management system that helps users organize projects, track progress, and improve productivity through efficient task planning.",
-    image: "/projects/task-management.png",
-    tags: ["C#", ".NET", "MVC", "Entity Framework"],
+      "Developed a project and task management backend with secure JWT-based authentication, role-based authorization, RESTful APIs, and real-time updates using SignalR.",
+    image: "/projects/task-flow.jpg",
+    tags: [".NET", "JWT", "SQL Server", "SignalR"],
     link: "#",
-    github: "#",
+    github: "https://github.com/haya08/Task-flow",
   },
   {
-    title: "Shipping system",
+    title: "GSoC 2026 qualification task",
     description:
-      "Created a shipping management solution for handling orders, tracking shipments, and optimizing delivery workflows with real-time status updates.",
-    image: "/projects/shipping.jpeg",
-    tags: ["C#", ".NET", "MVC", "Entity Framework"],
+      "Built an automated data collection pipeline for JSON Schema ecosystem observability, integrating GitHub GraphQL and npm REST APIs to generate ecosystem snapshots and benchmark data collection performance.",
+    image: "/public/projects/GSoC.jpg",
+    tags: ["Node.js", "GitHub GraphQL API", "GitHub Actions", "npm REST API"],
     link: "#",
-    github: "#",
+    github: "https://github.com/haya08/JSON-Schema-Observability-Q-T",
   },
 ];
 
@@ -77,10 +77,17 @@ export const Projects = () => {
                 <div className="absolute inset-0 bg-linear-to-t from-card via-card/50 to-transparent opacity-60 " />
                 {/* overlay links */}
                 <div className="absolute inset-0 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-700 ">
-                  <a href={project.link} className="p-2 glass rounded-full hover:bg-primary hover:text-primary-foreground transition-colors duration-300">
+                  {/* <a
+                    href={project.link}
+                    className="p-2 glass rounded-full hover:bg-primary hover:text-primary-foreground transition-colors duration-300"
+                  >
                     <ArrowUpRight className="w-7 h-7" />
-                  </a>
-                  <a href={project.github} className="p-3 glass rounded-full hover:bg-primary hover:text-primary-foreground transition-colors duration-300">
+                  </a> */}
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    className="p-3 glass rounded-full hover:bg-primary hover:text-primary-foreground transition-colors duration-300"
+                  >
                     <FaGithub className="w-5 h-5" />
                   </a>
                 </div>
@@ -89,25 +96,40 @@ export const Projects = () => {
               {/* content */}
               <div className="flex flex-col space-y-4 p-6">
                 <div className="flex items-center justify-between">
-                  <h3 className="text-xl font-semibold text-secondary-foreground">{project.title}</h3>
+                  <h3 className="text-xl font-semibold text-secondary-foreground">
+                    {project.title}
+                  </h3>
                   <ArrowUpRight className="w-6 h-6 text-secondary-foreground" />
                 </div>
-                <p className="text-muted-foreground text-sm">{project.description}</p>
-                <div className="flex flex-wrap gap-2">{project.tags.map((tag, idx) => (
-                  <span key={idx} className="text-sm text-muted-foreground glass px-3 py-1 rounded-full hover:border-primary/50 hover:text-primary transition-all duration-500">{tag}</span>
-                ))}</div>
+                <p className="text-muted-foreground text-sm">
+                  {project.description}
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {project.tags.map((tag, idx) => (
+                    <span
+                      key={idx}
+                      className="text-sm text-muted-foreground glass px-3 py-1 rounded-full hover:border-primary/50 hover:text-primary transition-all duration-500"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
               </div>
             </div>
           ))}
         </div>
 
         {/* my github link */}
-        <div className="flex justify-center mt-12 animate-fade-in animation-delay-800">
+        <a
+          href="https://github.com/haya08?tab=repositories"
+          target="_blank"
+          className="flex justify-center mt-12 animate-fade-in animation-delay-800"
+        >
           <AnimatedBorderButton>
             view All Projects
             <ArrowUpRight className="w-5 h-5" />
           </AnimatedBorderButton>
-        </div>
+        </a>
       </div>
     </section>
   );

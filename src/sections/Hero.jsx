@@ -99,13 +99,16 @@ export const Hero = () => {
             <div className="flex items-center gap-4 animate-fade-in animation-delay-700">
               <span className="text-sm text-muted-foreground">Follow me: </span>
               {[
-                { icon: FaGithub, href: "#" },
-                { icon: FaLinkedin, href: "#" },
-                { icon: FaInstagram, href: "#" },
+                { icon: FaGithub, href: "https://github.com/haya08" },
+                {
+                  icon: FaLinkedin,
+                  href: "https://www.linkedin.com/in/hayaahmedhussien/",
+                },
               ].map((social, idx) => (
                 <a
                   key={idx}
                   href={social.href}
+                  target="_blank"
                   className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300"
                 >
                   {<social.icon className="w-5 h-5" />}
@@ -141,12 +144,14 @@ export const Hero = () => {
                 </div>
 
                 {/* stats badge */}
-                {/* <div className="absolute -top-4 -left-4 rounded-2xl glass px-4 py-2 animate-float">
+                <div className="absolute -top-4 -left-4 rounded-2xl glass px-4 py-2 animate-float">
                   <div>
-                    <div className="text-2xl font-bold text-primary">5+</div>
-                    <div className="text-sm text-muted-foreground">Years Exp.</div>
+                    <div className="text-2xl font-bold text-primary">
+                      Haya Ahmed
+                    </div>
+                    {/* <div className="text-sm text-muted-foreground">Years Exp.</div> */}
                   </div>
-                </div> */}
+                </div>
               </div>
             </div>
           </div>

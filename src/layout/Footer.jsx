@@ -21,14 +21,19 @@ export const Footer = () => {
             HA<span className="text-primary">.</span>
           </a>
           <p className="text-muted-foreground flex items-center gap-2 text-sm">
-            <Copyright className="w-4 h-4" /> 2026 Haya Ahmed. All rights reserved
+            <Copyright className="w-4 h-4" /> 2026 Haya Ahmed. All rights
+            reserved
           </p>
         </div>
 
         {/* section links */}
         <div className="flex items-center gap-5">
           {navLinks.map((link, index) => (
-            <a key={index} href={link.href} className="text-muted-foreground text-sm hover:text-foreground">
+            <a
+              key={index}
+              href={link.href}
+              className="text-muted-foreground text-sm hover:text-foreground"
+            >
               {link.label}
             </a>
           ))}
@@ -37,11 +42,20 @@ export const Footer = () => {
         {/* social links */}
         <div className="flex items-center gap-5">
           {[
-            { icon: FaGithub, href: "#" },
-            { icon: FaLinkedin, href: "#" },
-            { icon: FaInstagram, href: "#" },
+            { icon: FaGithub, href: "https://github.com/haya08" },
+            {
+              icon: FaLinkedin,
+              href: "https://www.linkedin.com/in/hayaahmedhussien/",
+            },
           ].map((link, index) => (
-            <a key={index} href={link.href} target="_blank" className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300">{<link.icon />}</a>
+            <a
+              key={index}
+              href={link.href}
+              target="_blank"
+              className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300"
+            >
+              {<link.icon />}
+            </a>
           ))}
         </div>
       </div>
