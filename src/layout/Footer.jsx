@@ -4,8 +4,9 @@ import { FaGithub, FaLinkedin, FaInstagram, FaTwitter } from "react-icons/fa";
 const navLinks = [
   { href: "#about", label: "About" },
   { href: "#projects", label: "Projects" },
-  { href: "#experience", label: "Experience" },
-  { href: "#testimonials", label: "Testimonials" },
+  { href: "#contact", label: "Contact" },
+  // { href: "#experience", label: "Experience" },
+  // { href: "#testimonials", label: "Testimonials" },
 ];
 
 export const Footer = () => {
