@@ -25,7 +25,7 @@ const projects = [
     title: "GSoC 2026 qualification task",
     description:
       "Built an automated data collection pipeline for JSON Schema ecosystem observability, integrating GitHub GraphQL and npm REST APIs to generate ecosystem snapshots and benchmark data collection performance.",
-    image: "/public/projects/GSoC.jpg",
+    image: "/projects/GSoC.jpg",
     tags: ["Node.js", "GitHub GraphQL API", "GitHub Actions", "npm REST API"],
     link: "#",
     github: "https://github.com/haya08/JSON-Schema-Observability-Q-T",
